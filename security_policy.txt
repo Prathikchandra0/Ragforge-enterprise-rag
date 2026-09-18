@@ -1,0 +1,157 @@
+NovaTech Solutions — Information Security Policy
+Classification: Internal | Version 4.1 | Effective: January 2026
+
+============================================================
+SECTION 1: PASSWORD AND AUTHENTICATION
+============================================================
+
+Password Requirements:
+All passwords must meet these criteria:
+- Minimum 12 characters
+- At least one uppercase letter
+- At least one lowercase letter
+- At least one number
+- At least one special character (!@#$%^&*)
+- Cannot reuse the last 5 passwords
+- Must be changed every 90 days
+
+Two-Factor Authentication (2FA):
+2FA is mandatory for all employees on:
+- Company email
+- GitHub
+- AWS Console
+- VPN
+- HR portal (for accessing payslips and personal data)
+Use Google Authenticator or Authy as your 2FA app. SMS-based 2FA is not accepted due to SIM-swap vulnerabilities.
+
+Session Management:
+- Idle sessions timeout after 30 minutes for sensitive systems (AWS, HR portal)
+- General sessions (Slack, Jira) timeout after 8 hours
+- Always lock your laptop when leaving your desk (Cmd+L on Mac)
+- Never leave your laptop unattended in public spaces
+
+============================================================
+SECTION 2: DATA CLASSIFICATION AND HANDLING
+============================================================
+
+Data Classification Levels:
+- Public: Marketing materials, blog posts, job listings
+- Internal: Company policies, org charts, meeting notes
+- Confidential: Customer data, financial reports, employee salaries
+- Restricted: Encryption keys, database credentials, security audit findings
+
+Handling Rules by Classification:
+
+Public:
+- Can be shared externally without approval
+- No encryption required
+
+Internal:
+- Share within the company freely
+- Do not post on social media or external websites
+- Okay to discuss in public places (cafes, trains) at a general level
+
+Confidential:
+- Share only on a need-to-know basis within the company
+- Must be encrypted when shared externally (use company-approved tools)
+- Never share via personal email or WhatsApp
+- Print copies must be shredded after use
+
+Restricted:
+- Access limited to named individuals only
+- Must never leave company-managed systems
+- Sharing requires written approval from the CISO
+- Access is logged and audited quarterly
+
+============================================================
+SECTION 3: DEVICE SECURITY
+============================================================
+
+Company Laptops:
+- Full disk encryption must be enabled (FileVault on Mac, BitLocker on Windows)
+- Automatic OS updates must be enabled
+- Company antivirus (CrowdStrike) must be installed and running
+- Do not install pirated software
+- Do not disable the firewall
+
+Personal Devices:
+- Personal phones can access company email and Slack ONLY if they have a screen lock (PIN/biometric)
+- Do not store company files on personal devices
+- If your personal device is lost or stolen, inform IT immediately
+
+USB and External Storage:
+- USB storage devices are blocked on company laptops by default
+- If you need to use external storage, request a temporary exception from IT
+- Never plug in USB devices found in public places
+
+============================================================
+SECTION 4: NETWORK AND REMOTE ACCESS
+============================================================
+
+Office Network:
+- Connect only to the "NovaTech-Secure" WiFi network (WPA3)
+- The "NovaTech-Guest" network is for visitors only — employees should not use it
+- Do not connect personal IoT devices (smart speakers, etc.) to the office network
+
+VPN:
+- VPN is mandatory when working outside the office
+- Use the company-provided WireGuard VPN client
+- VPN connects you to the internal network — required for accessing internal tools, databases, and staging environments
+- Do not use third-party VPN services for work purposes
+
+Public WiFi:
+- Avoid using public WiFi for work. Use your phone's hotspot instead
+- If you must use public WiFi, ensure VPN is connected BEFORE accessing any company resources
+- Never access banking, email, or sensitive systems on public WiFi without VPN
+
+============================================================
+SECTION 5: INCIDENT REPORTING
+============================================================
+
+What Counts as a Security Incident:
+- Laptop lost or stolen
+- Suspected unauthorized access to your accounts
+- Phishing email received (even if you didn't click)
+- Accidentally sharing confidential data with wrong person
+- Finding confidential documents left in public areas
+- Suspicious USB device found
+- Any unusual account activity (login from unknown location)
+
+How to Report:
+1. Immediately inform your manager (verbal or Slack DM)
+2. Email security@novatech.in with subject: "SECURITY INCIDENT — [brief description]"
+3. Do NOT try to investigate on your own — let the security team handle it
+4. Preserve evidence — don't delete emails, messages, or files related to the incident
+
+Response Times:
+- Critical incidents (data breach, active attack): Response within 30 minutes
+- High priority (lost device, compromised account): Response within 2 hours
+- Medium (phishing received, suspicious activity): Response within 24 hours
+- Low (policy questions, access requests): Response within 48 hours
+
+Phishing:
+- If you receive a suspicious email, DO NOT click any links or download attachments
+- Forward the email to phishing@novatech.in
+- Mark it as spam/junk
+- Common signs of phishing: urgency, misspelled sender domain, requests for passwords, unexpected attachments
+
+============================================================
+SECTION 6: ACCEPTABLE USE
+============================================================
+
+Internet Usage:
+- Company internet is primarily for work purposes
+- Limited personal use is acceptable during breaks
+- The following are strictly prohibited: downloading copyrighted content (movies, software), accessing explicit content, cryptocurrency mining, running personal businesses on company infrastructure
+
+Software Installation:
+- Only install software from the company-approved list (available on Confluence)
+- If you need software not on the list, submit a request to IT
+- Open-source tools may be used for development after checking the license (MIT, Apache OK; GPL requires IT approval)
+- Never install cracked or pirated software — this is grounds for termination
+
+AI Tools:
+- ChatGPT, Claude, and similar AI tools may be used for work assistance
+- NEVER paste customer data, source code, or confidential information into external AI tools
+- Use the company-approved internal AI assistant for sensitive queries
+- Code generated by AI must be reviewed with the same rigor as human-written code

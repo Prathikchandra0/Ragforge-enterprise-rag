@@ -1,0 +1,173 @@
+CloudDesk Pro — Product Knowledge Base
+Internal Support Reference | Version 2.1 | June 2026
+
+============================================================
+SECTION 1: PRODUCT OVERVIEW
+============================================================
+
+What is CloudDesk Pro?
+CloudDesk Pro is a cloud-based project management and team collaboration platform designed for mid-size companies (50-500 employees). It combines task management, document collaboration, time tracking, and team communication in a single platform.
+
+Key Features:
+- Task Boards: Kanban and list views for managing project tasks with custom workflows
+- Document Hub: Real-time collaborative editing with version history and commenting
+- Time Tracker: Built-in time logging with automatic timesheets and project cost tracking
+- Team Chat: Channels, direct messages, and thread-based discussions integrated with tasks
+- Reports Dashboard: Project health metrics, team utilization, and deadline tracking
+- Integrations: Native connections with Slack, GitHub, Jira, Google Workspace, and 50+ tools
+
+Target Users:
+CloudDesk Pro is designed for project managers, team leads, and individual contributors in software development, marketing, consulting, and professional services teams. It is NOT suitable for personal use or teams smaller than 5 members.
+
+============================================================
+SECTION 2: PRICING AND PLANS
+============================================================
+
+Free Trial:
+All new accounts start with a 14-day free trial of the Business plan. No credit card is required to start. Trial accounts are limited to 10 users. At the end of the trial, accounts automatically downgrade to the Starter plan unless upgraded.
+
+Starter Plan — Rs 299/user/month (billed annually) or Rs 399/user/month (billed monthly):
+- Up to 20 users
+- 5 projects
+- 10 GB storage
+- Basic task management (Kanban only)
+- Email support (response within 48 hours)
+- No API access
+- No custom workflows
+
+Business Plan — Rs 699/user/month (billed annually) or Rs 899/user/month (billed monthly):
+- Unlimited users
+- Unlimited projects
+- 100 GB storage per user
+- Full task management (Kanban + List + Gantt)
+- Document Hub with version history
+- Time Tracker
+- Priority email and chat support (response within 4 hours)
+- API access
+- Custom workflows and automation
+- SSO (Single Sign-On) support
+
+Enterprise Plan — Custom pricing (contact sales):
+- Everything in Business, plus:
+- Unlimited storage
+- Dedicated account manager
+- 24/7 phone support with 1-hour response SLA
+- On-premise deployment option
+- Custom integrations and API priority
+- Advanced security (SOC 2, HIPAA compliance available)
+- Training and onboarding for teams
+
+Annual Billing Discount:
+All plans offer approximately 25% discount when billed annually compared to monthly billing. Annual subscriptions are non-refundable but can be upgraded mid-cycle with prorated charges.
+
+============================================================
+SECTION 3: ACCOUNT MANAGEMENT
+============================================================
+
+Creating an Account:
+Sign up at app.clouddesk.pro with a work email address. Personal email addresses (Gmail, Yahoo, Outlook) are not accepted for business accounts. The first user automatically becomes the Workspace Admin.
+
+User Roles:
+- Workspace Admin: Full control over billing, users, and settings. Can delete the workspace.
+- Project Admin: Can manage projects, add/remove members from projects, configure workflows.
+- Member: Can create tasks, edit own tasks, comment, and upload files.
+- Guest: Read-only access to specific projects. Cannot create or edit anything.
+
+Adding Users:
+Workspace Admins can invite users via email. Bulk invites are supported via CSV upload. New users receive an email invitation valid for 7 days. After expiry, a new invitation must be sent.
+
+Removing Users:
+When a user is removed, their tasks and documents remain in the system but are reassigned to the Workspace Admin. Their chat messages remain visible. Personal data is deleted after 30 days as per data retention policy.
+
+Password and Security:
+Passwords must be at least 12 characters with one uppercase, one number, and one special character. Two-factor authentication (2FA) is available and mandatory for Workspace Admins. Session timeout is set to 8 hours of inactivity.
+
+============================================================
+SECTION 4: BILLING AND PAYMENTS
+============================================================
+
+Payment Methods:
+We accept credit cards (Visa, Mastercard, Amex), debit cards, UPI, and net banking for Indian accounts. International accounts can pay via credit card or wire transfer. Payment is processed through Razorpay (India) and Stripe (international).
+
+Invoice and Tax:
+GST at 18% is applicable for all Indian customers. Invoices are generated on the 1st of each month for monthly billing, or on the subscription start date for annual billing. Invoices are available for download in the billing section of the admin dashboard.
+
+Upgrade and Downgrade:
+Upgrades take effect immediately with prorated charges for the remaining billing period. Downgrades take effect at the end of the current billing cycle. When downgrading, excess users/projects must be removed before the downgrade activates.
+
+Refund Policy:
+Monthly subscriptions: Full refund if cancelled within 48 hours of charge. No refund after 48 hours.
+Annual subscriptions: Non-refundable. However, if cancelling within the first 30 days of a new annual subscription, a prorated refund (minus one month at monthly rates) may be issued upon request to support.
+
+Failed Payments:
+If a payment fails, the system retries 3 times over 7 days. If all retries fail, the account enters a "Grace Period" of 14 days during which all features remain available. After the grace period, the account is downgraded to a restricted read-only mode until payment is resolved.
+
+============================================================
+SECTION 5: TECHNICAL SUPPORT
+============================================================
+
+Support Channels:
+- Help Center: docs.clouddesk.pro — Self-service articles and video tutorials
+- Email: support@clouddesk.pro — Available for all plans
+- Live Chat: Available for Business and Enterprise plans (Mon-Fri, 9 AM - 9 PM IST)
+- Phone: Available for Enterprise plan only (24/7)
+
+Response Times:
+- Starter plan: Email response within 48 business hours
+- Business plan: Email within 4 hours, chat within 15 minutes during business hours
+- Enterprise plan: Email within 1 hour, phone within 15 minutes, 24/7
+
+Issue Priority Levels:
+- P1 (Critical): Service is completely down. All users affected. Target resolution: 4 hours.
+- P2 (High): Major feature unavailable. Workaround not available. Target: 8 hours.
+- P3 (Medium): Feature partially working. Workaround available. Target: 24 hours.
+- P4 (Low): Minor issue, cosmetic bug, feature request. Target: 72 hours.
+
+Escalation:
+If a ticket has not been resolved within the target time, it automatically escalates to the next support tier. Customers can also manually escalate by replying to the ticket with "ESCALATE" in the subject line.
+
+============================================================
+SECTION 6: DATA AND PRIVACY
+============================================================
+
+Data Storage:
+All data is stored on AWS servers in the Mumbai (ap-south-1) region for Indian customers and Frankfurt (eu-central-1) for European customers. US customers are served from the Virginia (us-east-1) region.
+
+Data Backup:
+Full database backups are taken every 6 hours. Point-in-time recovery is available for the last 30 days. File storage is replicated across 3 availability zones with 99.999% durability.
+
+Data Export:
+Workspace Admins can export all workspace data (tasks, documents, comments, time logs) in JSON or CSV format at any time from the admin settings. Export processing takes up to 24 hours for large workspaces.
+
+Data Deletion:
+Upon account deletion, all data is permanently removed within 30 days. During this 30-day window, the account can be restored by contacting support. After 30 days, data is irrecoverable.
+
+Compliance:
+CloudDesk Pro is compliant with GDPR, SOC 2 Type II (Enterprise plan), and ISO 27001. HIPAA compliance is available as an add-on for Enterprise customers in healthcare. Annual security audits are conducted by an independent third party.
+
+============================================================
+SECTION 7: COMMON ISSUES AND TROUBLESHOOTING
+============================================================
+
+"I can't log in":
+1. Check if caps lock is on
+2. Try password reset via the "Forgot Password" link
+3. If using SSO, ensure your company's identity provider is active
+4. Clear browser cache and cookies
+5. If 2FA is locked, contact Workspace Admin to reset 2FA
+
+"My tasks are not syncing":
+1. Check internet connection
+2. Hard refresh the page (Ctrl+Shift+R)
+3. Log out and log back in
+4. Check the status page at status.clouddesk.pro
+5. If issue persists, contact support with browser console logs
+
+"I accidentally deleted a project":
+Deleted projects go to the Trash and can be restored within 30 days by a Workspace Admin. Go to Settings → Trash → select the project → Restore. After 30 days, the project is permanently deleted.
+
+"Export is taking too long":
+Exports for workspaces with more than 10,000 tasks or 50 GB of files can take up to 48 hours. You will receive an email when the export is ready for download. The download link expires after 7 days.
+
+"How do I cancel my subscription?":
+Go to Settings → Billing → Subscription → Cancel. You will be asked to confirm and provide a reason. Your account remains active until the end of the current billing period. You can reactivate anytime before the period ends.

@@ -1,0 +1,98 @@
+NovaTech Solutions — Employee Handbook & HR Policy
+Version 3.2 | Last Updated: January 2026
+
+============================================================
+SECTION 1: LEAVE POLICY
+============================================================
+
+Annual Leave:
+All full-time employees are entitled to 24 days of paid annual leave per calendar year. Leave accrues at the rate of 2 days per month. New employees can start using accrued leave after completing 3 months of service. Unused leave up to 10 days can be carried forward to the next year. Any leave beyond 10 days will lapse on December 31st.
+
+Sick Leave:
+Employees are entitled to 12 days of sick leave per year. Sick leave for more than 3 consecutive days requires a medical certificate from a registered medical practitioner. Sick leave cannot be carried forward or encashed. In case of extended illness beyond 12 days, employees may apply for medical leave without pay, subject to HR approval.
+
+Casual Leave:
+Employees are entitled to 6 days of casual leave per year. Casual leave cannot be taken for more than 3 consecutive days. Prior approval from the reporting manager is required. Casual leave cannot be combined with any other type of leave.
+
+Maternity and Paternity Leave:
+Female employees are entitled to 26 weeks of paid maternity leave as per the Maternity Benefit Act. Male employees are entitled to 15 days of paid paternity leave, to be availed within 6 months of the child's birth or adoption.
+
+============================================================
+SECTION 2: WORK FROM HOME POLICY
+============================================================
+
+Eligibility:
+All employees who have completed their probation period (6 months) are eligible for Work From Home (WFH) arrangements. Employees in their probation period may request WFH only in exceptional circumstances with manager and HR approval.
+
+Regular WFH:
+Employees may work from home up to 2 days per week. The preferred WFH days are Wednesday and Friday, though teams may adjust based on project needs. Employees must be available during core working hours (10:00 AM to 6:00 PM IST) on WFH days.
+
+Full Remote:
+Certain roles may be designated as fully remote. These are determined at the time of hiring and documented in the offer letter. Fully remote employees must visit the office at least once per quarter for team meetings and planning sessions.
+
+Equipment and Internet:
+The company provides a laptop and necessary peripherals for WFH. Employees are responsible for maintaining a stable internet connection with minimum 50 Mbps speed. The company reimburses up to Rs 1,500 per month for internet expenses upon submission of bills.
+
+WFH Expectations:
+Employees must maintain the same productivity levels as in-office work. All meetings must be attended via video call with camera on. Employees must respond to messages within 30 minutes during core hours. Any planned unavailability during WFH must be communicated in advance.
+
+============================================================
+SECTION 3: EXPENSE REIMBURSEMENT
+============================================================
+
+Travel Expenses:
+Domestic travel by air is permitted for distances over 500 km with prior approval from the department head. Train travel (AC 2-tier or 3-tier) is standard for shorter distances. Local travel reimbursement is available for cab/auto at actuals with receipt, capped at Rs 2,000 per day.
+
+Meal Expenses:
+During domestic business travel, meal expenses are reimbursed at actuals up to the following daily limits: Tier-1 cities (Mumbai, Delhi, Bangalore, Hyderabad, Chennai, Kolkata) — Rs 1,500 per day. Other cities — Rs 1,000 per day. Alcohol expenses are not reimbursable.
+
+Client Entertainment:
+Client meals and entertainment must be pre-approved by the department head. The limit is Rs 5,000 per event. An expense report with all receipts must be submitted within 7 days of the event.
+
+Reimbursement Process:
+All expense claims must be submitted through the HR portal within 30 days of incurring the expense. Claims submitted after 30 days may be rejected. Approved reimbursements are processed in the next payroll cycle. Original receipts or digital copies must be uploaded with each claim.
+
+============================================================
+SECTION 4: PROBATION AND CONFIRMATION
+============================================================
+
+Probation Period:
+All new employees undergo a probation period of 6 months from the date of joining. During probation, either party may terminate employment with 15 days notice or salary in lieu of notice.
+
+Performance Review During Probation:
+A formal performance review is conducted at the end of 3 months and 6 months. The 3-month review is a checkpoint — if performance is unsatisfactory, the employee will be placed on a Performance Improvement Plan (PIP) with specific goals for the remaining 3 months.
+
+Confirmation:
+Upon successful completion of probation, employees receive a confirmation letter and become eligible for all employee benefits including WFH, company health insurance (family floater up to Rs 5 lakhs), and annual performance bonus.
+
+Extension of Probation:
+In cases where performance is borderline, probation may be extended by up to 3 months. This extension requires HR and department head approval and must be communicated in writing to the employee.
+
+============================================================
+SECTION 5: PERFORMANCE MANAGEMENT
+============================================================
+
+Annual Reviews:
+Performance reviews are conducted annually in March. Employees are assessed on: delivery of objectives (50%), skill development (25%), and cultural contribution (25%). Ratings are on a 5-point scale: Exceptional, Exceeds Expectations, Meets Expectations, Needs Improvement, Unsatisfactory.
+
+Increment and Bonus:
+Annual increments are based on performance ratings and market adjustments. The company targets increments between 8-15% for Meets Expectations and above. Performance bonuses of up to 20% of annual CTC are awarded to employees rated Exceeds Expectations or Exceptional.
+
+Goals and OKRs:
+Employees set quarterly OKRs (Objectives and Key Results) in consultation with their managers. OKRs are reviewed mid-quarter and at quarter-end. Progress on OKRs forms a key input to the annual performance review.
+
+============================================================
+SECTION 6: CODE OF CONDUCT
+============================================================
+
+Working Hours:
+Standard working hours are 9:00 AM to 6:30 PM, Monday through Friday, with a 30-minute lunch break. Flexible timing is available between 8:00 AM to 10:00 AM start, with corresponding end times. Total working hours must be at least 8.5 hours per day.
+
+Dress Code:
+Business casual is the standard dress code. On Fridays, casual wear is permitted. When meeting clients or attending external events, formal business attire is required.
+
+Communication:
+Slack is the primary communication tool for daily work. Email is used for formal communications, approvals, and external communication. All internal meetings should be scheduled via Google Calendar with at least 24 hours notice except for emergencies.
+
+Confidentiality:
+All employees must maintain strict confidentiality regarding company information, client data, and proprietary processes. Sharing confidential information externally without written authorization is grounds for immediate termination.

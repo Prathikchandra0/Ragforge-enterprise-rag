@@ -1,0 +1,121 @@
+NovaTech Solutions — Engineering Standards & Practices
+Version 2.0 | Last Updated: March 2026
+
+============================================================
+SECTION 1: GIT WORKFLOW
+============================================================
+
+Branching Strategy:
+We follow a simplified Git Flow. The main branch is always deployable. All development happens in feature branches.
+
+Branch naming convention:
+- feature/JIRA-123-short-description (for new features)
+- fix/JIRA-456-bug-description (for bug fixes)
+- hotfix/JIRA-789-critical-fix (for production emergencies)
+
+Pull Request Rules:
+Every change must go through a Pull Request (PR). Direct commits to main are blocked. PRs require at least 1 approval from a team member. The PR author cannot approve their own PR. All CI checks must pass before merging. PRs should be small — ideally under 400 lines of code changes.
+
+Commit Message Format:
+Use conventional commits format:
+- feat: add user authentication endpoint
+- fix: resolve null pointer in payment service
+- docs: update API documentation for v2
+- refactor: simplify database connection logic
+- test: add unit tests for order validation
+
+Merge Strategy:
+Use "Squash and Merge" for feature branches to keep main history clean. Each PR becomes one commit on main. Delete the source branch after merge.
+
+============================================================
+SECTION 2: CODE REVIEW PROCESS
+============================================================
+
+Review Expectations:
+Reviewers should respond within 4 business hours. If you can't review in time, reassign to another team member. Reviews should be constructive — suggest alternatives, don't just point out problems.
+
+What to Check in Reviews:
+1. Does the code work? (Logic correctness)
+2. Is it readable? (Clear variable names, comments where needed)
+3. Are there tests? (Unit tests for new logic)
+4. Security concerns? (SQL injection, XSS, hardcoded secrets)
+5. Performance? (N+1 queries, unnecessary loops)
+6. Error handling? (What happens when things fail?)
+
+Review Etiquette:
+- Use "suggestion" not "demand" language
+- Explain WHY something should change, not just what
+- Approve with minor comments rather than blocking for style issues
+- If blocking, clearly state what must change before approval
+
+============================================================
+SECTION 3: CODING STANDARDS
+============================================================
+
+Python:
+- Follow PEP 8 style guide
+- Use type hints for function signatures
+- Maximum line length: 120 characters
+- Use f-strings for string formatting (not .format() or %)
+- All functions must have docstrings
+- Use virtual environments (venv or poetry)
+
+JavaScript/TypeScript:
+- Use TypeScript for all new code
+- Follow Airbnb style guide with ESLint
+- Use async/await over .then() chains
+- Components in PascalCase, functions in camelCase
+- No any type — always define interfaces
+
+Testing:
+- Minimum 80% code coverage for new code
+- Unit tests for all business logic
+- Integration tests for API endpoints
+- Use pytest (Python) or Jest (TypeScript)
+- Test names should describe the behavior: test_user_cannot_login_with_expired_token
+
+============================================================
+SECTION 4: API DESIGN
+============================================================
+
+REST API Conventions:
+- Use plural nouns for resources: /users, /orders, /products
+- Use HTTP methods correctly: GET (read), POST (create), PUT (update), DELETE (remove)
+- Return appropriate status codes: 200 (OK), 201 (Created), 400 (Bad Request), 404 (Not Found), 500 (Server Error)
+- Paginate list endpoints with ?page=1&limit=20
+- Version APIs in the URL: /api/v1/users
+
+Request/Response Format:
+- Always use JSON
+- Use snake_case for field names
+- Include created_at and updated_at timestamps
+- Error responses must include: status_code, message, and error_code
+
+Authentication:
+- Use JWT tokens for API authentication
+- Access tokens expire in 1 hour
+- Refresh tokens expire in 7 days
+- Include tokens in the Authorization header: Bearer <token>
+
+============================================================
+SECTION 5: DATABASE PRACTICES
+============================================================
+
+Schema Design:
+- Every table must have a primary key (UUID preferred over auto-increment)
+- Add created_at and updated_at columns to all tables
+- Use foreign keys for relationships
+- Add indexes for frequently queried columns
+- Never delete data — use soft deletes (is_deleted flag)
+
+Migrations:
+- All schema changes must be done through migration scripts
+- Never modify a database manually in production
+- Migrations must be reversible (include up and down)
+- Test migrations on a staging database before production
+
+Query Performance:
+- No queries without WHERE clauses on large tables
+- Avoid SELECT * — specify needed columns
+- Use EXPLAIN to check query plans for slow queries
+- Maximum query time: 500ms for API endpoints

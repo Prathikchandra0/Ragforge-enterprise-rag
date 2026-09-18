@@ -1,0 +1,121 @@
+NovaTech Solutions — New Employee Onboarding Guide
+Welcome aboard! Here's everything you need for your first week.
+
+============================================================
+SECTION 1: DAY 1 — GETTING STARTED
+============================================================
+
+Arrival:
+Report to the reception desk at 9:30 AM on your first day. Ask for the HR coordinator who will guide you through the onboarding process. Bring a government-issued photo ID (Aadhaar or PAN card) and your original degree certificates for verification.
+
+Equipment:
+IT will provide you with a MacBook Pro (for engineering) or MacBook Air (for non-engineering roles) on Day 1. You'll also receive a wireless mouse, a laptop stand, and a USB-C hub. Monitors are available in the office — one 27-inch monitor per person.
+
+Accounts Setup (IT does this on Day 1):
+- Company email (firstname.lastname@novatech.in)
+- Slack workspace access
+- Google Workspace (Drive, Calendar, Docs)
+- GitHub organization (engineering only)
+- Jira access
+- 1Password team vault
+
+Buddy System:
+Every new employee is assigned a buddy — a team member who's been here at least 6 months. Your buddy will help you navigate the first 2 weeks: answer questions, introduce you to people, and explain unwritten norms. Your buddy's name will be in your welcome email.
+
+============================================================
+SECTION 2: FIRST WEEK SCHEDULE
+============================================================
+
+Day 1 (Monday):
+- 9:30 AM: Reception + ID verification
+- 10:00 AM: HR orientation (policies, benefits, leave system)
+- 11:30 AM: IT setup (laptop, accounts)
+- 1:00 PM: Lunch with buddy
+- 2:00 PM: Team introduction + workspace tour
+- 3:30 PM: Manager 1:1 (expectations, first-month goals)
+
+Day 2 (Tuesday):
+- 10:00 AM: Engineering onboarding (dev environment setup, Git access, deploy pipeline overview)
+- 1:00 PM: Product overview session (what we build, who uses it, architecture)
+- 3:00 PM: Self-study — read internal wiki, explore the codebase
+
+Day 3 (Wednesday):
+- 10:00 AM: First standup with the team
+- 10:30 AM: Pick up your first ticket (always a small, well-scoped task)
+- Rest of day: Work on first ticket with buddy support
+
+Day 4 (Thursday):
+- Continue first ticket
+- 2:00 PM: Security awareness training (mandatory, 1 hour)
+- 4:00 PM: Mid-week check-in with manager
+
+Day 5 (Friday):
+- Complete and submit first PR
+- 3:00 PM: End-of-week retro with buddy (what went well, what's confusing)
+- 4:00 PM: Optional team social (office games/chai)
+
+============================================================
+SECTION 3: TOOLS AND ACCESS
+============================================================
+
+Communication:
+- Slack: Primary daily communication. Check channels: #general, #engineering, #random, and your team channel
+- Email: For formal communications, HR requests, and external contacts
+- Google Meet: For all video calls (link in calendar invite)
+
+Project Management:
+- Jira: All tasks and tickets live here. Your team lead assigns your first tickets
+- Confluence: Internal wiki — product docs, architecture decisions, runbooks
+- Notion: Some teams use this for meeting notes and personal tracking
+
+Development (Engineering):
+- GitHub: All code repositories. You'll be added to your team's repos on Day 1
+- VS Code: Recommended editor (with team-standard extensions list)
+- Docker: All services run in containers locally
+- AWS Console: Read-only access initially, write access after 1 month
+
+Design:
+- Figma: UI/UX designs and prototypes
+- Miro: Whiteboarding and brainstorming sessions
+
+============================================================
+SECTION 4: KEY POLICIES TO KNOW IMMEDIATELY
+============================================================
+
+Working Hours:
+Flexible start between 8 AM and 10 AM. Core hours (everyone online): 10 AM to 4 PM. Minimum 8.5 hours per day.
+
+Leave:
+Don't take leave in the first month (unless emergency). After that, apply via the HR portal at least 2 days in advance for planned leave.
+
+WFH:
+Not available during probation (first 6 months) unless explicitly approved by your manager and HR. After confirmation, you can WFH up to 2 days per week.
+
+Dress Code:
+Business casual Monday to Thursday. Casual Fridays. No shorts or flip-flops.
+
+Food:
+Pantry has free tea, coffee, and biscuits. Lunch is not provided but there's a subsidized cafeteria on the ground floor (Rs 80-120 per meal). Friday team lunches are sponsored by the company.
+
+============================================================
+SECTION 5: 30-60-90 DAY EXPECTATIONS
+============================================================
+
+First 30 Days:
+- Complete all onboarding tasks and training
+- Deliver 3-5 small tickets independently
+- Understand the team's product area and architecture
+- Know all team members by name and role
+- Attend all standups, sprint planning, and retros
+
+Days 31-60:
+- Own a small feature end-to-end (design, code, test, deploy)
+- Start participating in code reviews (as reviewer)
+- Identify one area for process improvement
+- 60-day check-in with manager (formal feedback)
+
+Days 61-90:
+- Take on medium-complexity features
+- Mentor the next new joiner (if applicable)
+- Contribute to technical documentation
+- 90-day probation review (leads to confirmation if successful)
