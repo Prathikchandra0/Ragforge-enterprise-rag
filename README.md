@@ -1,30 +1,30 @@
 # ⚡ RAGForge
 
 ```{=html}
-<p align="center">
+'<p align="center">
 ```
 <img src="assets/ragforge-pro-github.gif" alt="RAGForge animated RAG pipeline" width="100%">`{=html}
 ```{=html}
-</p>
+'</p>
 ```
 ```{=html}
-<p align="center">
+'<p align="center">
 ```
 `<strong>`{=html}Enterprise Knowledge Retrieval with Retrieval-Augmented
 Generation`</strong>`{=html}
 ```{=html}
-</p>
+'</p>
 ```
 ```{=html}
-<p align="center">
+'<p align="center">
 ```
 A hands-on RAG implementation built to understand how documents are
 chunked, stored, retrieved, and supplied as context to an LLM.
 ```{=html}
-</p>
+'</p>
 ```
 ```{=html}
-<p align="center">
+'<p align="center">
 ```
 `<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white">`{=html}
 `<img src="https://img.shields.io/badge/RAG-Retrieval--Augmented%20Generation-7C3AED?style=flat-square">`{=html}
@@ -32,7 +32,7 @@ chunked, stored, retrieved, and supplied as context to an LLM.
 `<img src="https://img.shields.io/badge/Groq-LLM%20Inference-111827?style=flat-square">`{=html}
 `<img src="https://img.shields.io/badge/Google%20Colab-Notebook-F9AB00?style=flat-square&logo=googlecolab&logoColor=white">`{=html}
 ```{=html}
-</p>
+'</p>
 ```
 
 ------------------------------------------------------------------------
