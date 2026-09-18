@@ -1,14 +1,15 @@
 # ⚡ RAGForge
 
 ```{=html}
-'<p align="center">
+<p align="center">
 ```
-<img src="assets/ragforge-pro-github.gif" alt="RAGForge animated RAG pipeline" width="100%">`{=html}
-```{=html}
-'</p>
+<p align="center">
+  <img src="assets/ragforge-pro-github.gif" alt="RAGForge Demo" width="100%">
+</p>
+</p>
 ```
 ```{=html}
-'<p align="center">
+<p align="center">
 ```
 `<strong>`{=html}Enterprise Knowledge Retrieval with Retrieval-Augmented
 Generation`</strong>`{=html}
@@ -16,15 +17,15 @@ Generation`</strong>`{=html}
 '</p>
 ```
 ```{=html}
-'<p align="center">
+<p align="center">
 ```
 A hands-on RAG implementation built to understand how documents are
 chunked, stored, retrieved, and supplied as context to an LLM.
 ```{=html}
-'</p>
+</p>
 ```
 ```{=html}
-'<p align="center">
+<p align="center">
 ```
 `<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white">`{=html}
 `<img src="https://img.shields.io/badge/RAG-Retrieval--Augmented%20Generation-7C3AED?style=flat-square">`{=html}
