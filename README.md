@@ -1,40 +1,45 @@
 # ⚡ RAGForge
 
-```{=html}
-<p align="center">
-```
 <p align="center">
   <img src="assets/ragforge-pro-github.gif" alt="RAGForge Demo" width="100%">
 </p>
+
+<p align="center">
+  <strong>Enterprise Knowledge Retrieval • Grounded AI</strong>
 </p>
-```
-```{=html}
+
 <p align="center">
-```
-`<strong>`{=html}Enterprise Knowledge Retrieval with Retrieval-Augmented
-Generation`</strong>`{=html}
-```{=html}
-'</p>
-```
-```{=html}
-<p align="center">
-```
-A hands-on RAG implementation built to understand how documents are
-chunked, stored, retrieved, and supplied as context to an LLM.
-```{=html}
+  A hands-on Retrieval-Augmented Generation implementation built to understand how documents are chunked, stored, retrieved, and supplied as context to an LLM.
 </p>
-```
-```{=html}
+
 <p align="center">
-```
-`<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white">`{=html}
-`<img src="https://img.shields.io/badge/RAG-Retrieval--Augmented%20Generation-7C3AED?style=flat-square">`{=html}
-`<img src="https://img.shields.io/badge/ChromaDB-Vector%20Retrieval-F97316?style=flat-square">`{=html}
-`<img src="https://img.shields.io/badge/Groq-LLM%20Inference-111827?style=flat-square">`{=html}
-`<img src="https://img.shields.io/badge/Google%20Colab-Notebook-F9AB00?style=flat-square&logo=googlecolab&logoColor=white">`{=html}
-```{=html}
-'</p>
-```
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/RAG-Retrieval--Augmented%20Generation-7C3AED?style=flat-square" alt="RAG">
+  <img src="https://img.shields.io/badge/ChromaDB-Vector%20Retrieval-F97316?style=flat-square" alt="ChromaDB">
+  <img src="https://img.shields.io/badge/Groq-LLM%20Inference-111827?style=flat-square" alt="Groq">
+  <img src="https://img.shields.io/badge/Google%20Colab-Notebook-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" alt="Google Colab">
+</p>
+
+---
+
+## 🧠 What is RAGForge?
+
+**RAGForge** is a learning-focused Retrieval-Augmented Generation (RAG) project that demonstrates how an LLM can answer questions using information retrieved from a custom knowledge base.
+
+Instead of relying only on the model's internal knowledge, the system:
+
+```text
+User Question
+      ↓
+Semantic Retrieval
+      ↓
+Relevant Document Chunks
+      ↓
+Context Construction
+      ↓
+Groq LLM
+      ↓
+Grounded Answer
 
 ------------------------------------------------------------------------
 
