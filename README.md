@@ -3,7 +3,7 @@
 ```{=html}
 <p align="center">
 ```
-`<img src="asserts/ragforge-pro-github.gif" alt="RAGForge animated RAG pipeline" width="100%">`{=html}
+`<img src="assets/ragforge-pro-github.gif" alt="RAGForge animated RAG pipeline" width="100%">`{=html}
 ```{=html}
 </p>
 ```
