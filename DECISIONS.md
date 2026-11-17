@@ -59,3 +59,9 @@
 - Real weakness: #24 (failed payments) gives the 14-day grace period but omits
   the 7-day retry window, so the answer is incomplete.
 - Refusals: 5/5 unanswerable questions correctly refused.
+- Re-run after trimming: 28/30. #3 and #13 now pass.
+- New failure #6 (probation length): the sources conflict. HR policy says
+  6 months; onboarding guide says a 90-day review leads to confirmation.
+  The model picked one source, and which one varied between runs.
+- Idea for Phase 3: instruct the model to point out conflicting sources
+  instead of silently choosing one.
