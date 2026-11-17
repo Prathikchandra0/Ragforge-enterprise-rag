@@ -34,3 +34,34 @@
 - Section headings are dropped during chunking. Prepend the section name to each chunk?
 - Add a similarity threshold so off-topic questions never reach the LLM
   (a code-level guard, since prompts aren't guarantees).
+
+## Phase 2: Evaluation
+
+### Retrieval
+- Test set: 30 questions (19 fact, 6 paraphrased, 5 unanswerable) in `eval/questions.json`.
+- Document-level hit rate was 100% at K=5: too easy (only 5 distinct documents),
+  so it couldn't show improvements. Switched to chunk-level: a hit means a
+  retrieved chunk contains the exact answer snippet.
+- Baseline (chunk-level):
+  | K | Hit rate | MRR |
+  |---|---|---|
+  | 1 | 88% | 0.88 |
+  | 3 | 96% | 0.91 |
+  | 5 | 100% | 0.92 |
+- Weakest: #13 "What time should I arrive on my first day?" misses even at K=3.
+
+### Answers
+- LLM-as-a-judge (temperature 0) checks answerable questions; refusals are checked
+  by exact phrase match.
+- First run: 27/30. Reading the failures showed 2 were judge false negatives:
+  expected answers contained extra details the question didn't ask for.
+  Trimmed them to the core fact.
+- Real weakness: #24 (failed payments) gives the 14-day grace period but omits
+  the 7-day retry window, so the answer is incomplete.
+- Refusals: 5/5 unanswerable questions correctly refused.
+- Re-run after trimming: 28/30. #3 and #13 now pass.
+- New failure #6 (probation length): the sources conflict. HR policy says
+  6 months; onboarding guide says a 90-day review leads to confirmation.
+  The model picked one source, and which one varied between runs.
+- Idea for Phase 3: instruct the model to point out conflicting sources
+  instead of silently choosing one.
