@@ -49,3 +49,13 @@
   | 3 | 96% | 0.91 |
   | 5 | 100% | 0.92 |
 - Weakest: #13 "What time should I arrive on my first day?" misses even at K=3.
+
+### Answers
+- LLM-as-a-judge (temperature 0) checks answerable questions; refusals are checked
+  by exact phrase match.
+- First run: 27/30. Reading the failures showed 2 were judge false negatives:
+  expected answers contained extra details the question didn't ask for.
+  Trimmed them to the core fact.
+- Real weakness: #24 (failed payments) gives the 14-day grace period but omits
+  the 7-day retry window, so the answer is incomplete.
+- Refusals: 5/5 unanswerable questions correctly refused.
