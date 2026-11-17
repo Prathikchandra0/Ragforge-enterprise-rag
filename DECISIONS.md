@@ -34,3 +34,18 @@
 - Section headings are dropped during chunking. Prepend the section name to each chunk?
 - Add a similarity threshold so off-topic questions never reach the LLM
   (a code-level guard, since prompts aren't guarantees).
+
+## Phase 2: Evaluation
+
+### Retrieval
+- Test set: 30 questions (19 fact, 6 paraphrased, 5 unanswerable) in `eval/questions.json`.
+- Document-level hit rate was 100% at K=5: too easy (only 5 distinct documents),
+  so it couldn't show improvements. Switched to chunk-level: a hit means a
+  retrieved chunk contains the exact answer snippet.
+- Baseline (chunk-level):
+  | K | Hit rate | MRR |
+  |---|---|---|
+  | 1 | 88% | 0.88 |
+  | 3 | 96% | 0.91 |
+  | 5 | 100% | 0.92 |
+- Weakest: #13 "What time should I arrive on my first day?" misses even at K=3.
